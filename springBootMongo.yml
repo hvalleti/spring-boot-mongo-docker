@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: hvalleti/spring-boot-mongo
+        image: hvalleti/spring-boot-mongo:10
         ports:
         - containerPort: 8080
         env:
